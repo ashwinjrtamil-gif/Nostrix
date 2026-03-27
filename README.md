@@ -1,38 +1,87 @@
-# Nostrix Ai
+🌌 NOSTRIX AI — SUMMARY
 
-🌌 NOSTRIX-M1: Sovereign Edge Intelligence
-Funder,CEO,CE: Ashwin
+Nostrix AI is a sovereign, local-first intelligence framework engineered by Ashwin, designed to transform raw web data into high-density, actionable intelligence without relying on cloud infrastructure or external databases.
 
-NOSTRIX-M1 is a high-performance, local-first RAG and Neural Sync framework engineered for Apple Silicon (M4). It eliminates heavy database dependencies, utilizing a volatile In-Memory Semantic Cache and IDS (Information Density Scoring) algorithms to mine and process technical ore in real-time.
+⚙️ Core Philosophy
+Zero-Footprint Autonomy → runs entirely in local memory (RAM)
+Privacy = Sovereignty → no external data leakage
+Fact-First Processing → eliminates noise, prioritizes technical truth
+Hardware-Native Optimization → built for Apple Silicon (M-series)
+🧠 System Architecture
+🛰 NOSTRIX-M1 (Turbo Precisor)
+Core inference engine
+Uses logit warping + entropy penalties
+Prevents hallucination and repetition
+Optimized with FP16 on Neural Engine
+⛏ DATACHUKZ (IDS Miner)
+Data mining engine
+Uses Information Density Scoring (IDS)
+Extracts only technical “Ore”:
+Numbers
+Units (Mach, kN, GHz)
+Engineering facts
+🧠 NNRE (Neural Node Retrieval Engine)
+Semantic retrieval system
+Builds a volatile in-memory vector vault
+Enables real-time, context-aware RAG without databases
+📈 StockEngine
+Financial intelligence module
+Injects market signals into AI reasoning loop
+Enables predictive weighting and decision support
+🔬 Core Algorithms
+⚡ IDS (Information Density Scoring)
+𝐼
+𝐷
+𝑆
+=
+technical tokens (numbers + units)
+total tokens
+IDS=
+total tokens
+technical tokens (numbers + units)
+	​
 
-🛠 THE ENGINE STACK
-🛰 NostrixM1Turbo.py | The Precisor Core
-The flagship inference engine. Features Logit Warping and Entropy-Based Penalties to ensure 0% hallucination and zero-looping generation. Optimized with FP16 precision for the M4 Neural Engine.
 
-⛏ Nostrix Datamine.py | IDS Extraction
-Utilizes the DataChukz Algorithm to filter technical data. It ignores conversational noise and extracts high-density "Ore" (metrics, Mach speeds, propulsion specs) using Information Density Scoring.
+→ Filters out noise, keeps only high-value data
 
-🧠 NNRE.py | Neural Node Retrieval Engine
-A custom Non-Linear Retrieval layer. It maps semantic vectors in a volatile RAM vault, ensuring that the RAG context is always technically relevant to the query.
+🔄 Neural Sync (1-Pass SGD)
+Dynamically updates model behavior
+No full retraining required
+Adapts instantly to new mined data
+🛡 Stochastic Beam Guard
+Blocks repetitive outputs at token level
+Forces precise, non-looping generation
+🔁 ORE → ENGINE PIPELINE
+Web Data
+→
+IDS Mining
+→
+Semantic Nodes
+→
+NNRE Retrieval
+→
+M1 Inference
+Web Data→IDS Mining→Semantic Nodes→NNRE Retrieval→M1 Inference
 
-📈 StockEngine.py | Market Pulse Integrator
-A sovereign-layer financial analysis tool that pipes real-time market data into the Nostrix intelligence loop for predictive weighting.
+✔ No static databases
+✔ No preloaded corpora
+✔ Fully dynamic intelligence
 
-🚀 CORE ALGORITHMS
-IDS (Information Density Scoring): Algorithmic extraction that calculates the ratio of numbers/units to prose. Only the "Steel" is kept.
+🚀 Key Capabilities
+Real-time technical data mining
+Semantic ranking without vector DBs
+Local RAG execution in RAM
+High-precision, low-noise outputs
+Fully modular (plug-in engines)
+🛡 Manifesto
+Data stays local
+Facts over opinions
+Efficiency over scale
+Control over dependency
+⚡ Vision
 
-Neural Sync (1-Pass SGD): Dynamically shifts model weights to the latest mined data without requiring a full fine-tuning session.
+Nostrix redefines AI from:
 
-Stochastic Beam Guard: A non-repetitive feature that blocks n-gram loops at the logit level, forcing high-precision technical outputs.
+“Search → Intelligence”
 
-Nostrix AI is focused on developing next-generation intelligent systems that operate without heavy reliance on external APIs.
-
-Our core platform integrates:
-
-- Neural Ranking Engine (NNRE) for semantic search and relevance scoring
-- Real-time Stock Intelligence Engine for market insights and predictions
-- Autonomous Data Mining Engine with chunk-based semantic retrieval
-
-Nostrix transforms raw web data into structured, actionable intelligence through a terminal-first interface designed for speed, control, and scalability.
-
-We aim to redefine how developers, analysts, and researchers interact with data — moving from search to true intelligence.
+A system where machines don’t just retrieve data—they mine, refine, and synthesize truth in real time, entirely under the user’s control.
